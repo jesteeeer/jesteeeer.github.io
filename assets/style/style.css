@@ -1,0 +1,31 @@
+.glass {
+    background-color: rgba(121, 109, 109, 0.3);
+    backdrop-filter: blur(5px) brightness(150%);
+}
+
+.project-box{
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+    transition: transform 0.3s ease;
+}
+
+.project-box:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.project-line{
+    height: 3px;
+    width: 750px;
+    background: black;
+}
+
+.footer-icon {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-icon:hover{
+    color: gray;
+}
